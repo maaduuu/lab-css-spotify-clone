@@ -7,52 +7,81 @@ White: #FFF
 
 */
 
-*{
-    margin: 0;
-    padding: 0%;
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: "Roboto", sans-serif;
+}
+/* Condition to change widht on Mobile and Tablets */
+@media only screen and (max-width: 700px) {
+  .spoty-logo img {
+    width: 100px;
+  }
+}
+
+/* Header and Nav Style */
+#nav-bar {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  padding: 1rem 1rem;
+}
+
+.logo-img {
+  width: 175px;
+}
+
+.spoty-logo {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.spoty-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-possibility {
+  list-style-type: none;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.nav-possibility li {
+  width: 100%;
+  font-size: 1em;
+}
+/* Background Section 1 */
+#background-structure{
+    height: 1000px;
+}
+.background-img{
+    background-image: url(../images/landing.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 
 }
 
-#nav-bar{
-    width: 100%;
-}
-
-nav{
+.background-img{
     display: flex;
-    padding: 1rem 1rem;
-}
-
-.logo-img{
-   width: 100px;
-}
-
-.spoty-logo{
-    display: flex;
-}
-
-
-.nav{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.spoty-nav{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
-.nav-possibility{
-    list-style-type:none ;
-    display: flex;
-    column-gap: 10px;
-    align-items: center;
-}
-
-.nav-possibility li{
-    width: 100%;
-    font-size: 10px;
-
+.title{
+    color: white;
+    font-size: 100px;
 }
