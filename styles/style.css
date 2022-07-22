@@ -176,6 +176,9 @@ nav {
   font-weight: 200;
 }
 
+
+/* Section 2 | Structure and Boxes */
+
 #what-structure{
   width: 100%;
   height: 400px;
@@ -238,4 +241,39 @@ nav {
 .box3 img{
   width: 33%;
   margin-bottom: 20px;
+}
+
+
+/* Section 3 */
+
+#info-structure{
+  background-color: #00B172;
+  margin: 0 20px;
+  height: 450px;
+}
+
+.container-info{
+  display: flex;
+  flex-direction: column;
+}
+.title-container{
+  color: #FFFF;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.subtitle-container{
+
+
+}
+
+
+.info-title{
+
+
+}
+
+.inifo-subtitle{
+
 }
