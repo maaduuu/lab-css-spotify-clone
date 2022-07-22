@@ -56,7 +56,7 @@ White: #FFF
 
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 510px) {
   .spoty-logo img {
     width: 100px;
   }
@@ -209,6 +209,7 @@ nav {
   align-items:center;
   text-align: center;
   flex-direction: row;
+  column-gap: 10px;
 
 
 }
@@ -228,10 +229,13 @@ nav {
 
 .box1 img{
   width: 33%;
+  margin-bottom: 20px;
 }
 .box2 img{
   width: 33%;
+  margin-bottom: 20px;
 }
 .box3 img{
   width: 33%;
+  margin-bottom: 20px;
 }
